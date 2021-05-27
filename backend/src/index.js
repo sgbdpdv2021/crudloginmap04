@@ -5,7 +5,7 @@ const app = express();
 require('./database');
 
 // settings
-app.set('port', process.env.PORT || 4000)
+app.set('port', process.env.PORT || 4500)
 
 // middlewares
 app.use(express.json());
